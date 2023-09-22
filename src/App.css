@@ -1,0 +1,23 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.box {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.word {
+    margin: 12px 0 36px 0;
+    display: flex;
+    height: 26px;
+    justify-content: space-between;
+}
+
+.read-the-docs {
+    color: #888;
+}

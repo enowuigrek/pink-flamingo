@@ -1,0 +1,16 @@
+export const words = [
+    { pl: 'dodatkowy', en: 'additional' },
+    { pl: 'rozważać', en: 'consider' },
+    { pl: 'zarząd', en: 'board' },
+    { pl: 'doświadcznie', en: 'experience' },
+    { pl: 'zdradzić', en: 'betray' },
+    { pl: 'raz', en: 'once' },
+    { pl: 'przykład', en: 'instance' },
+    { pl: 'dostępny', en: 'available' },
+    { pl: 'może', en: 'might' },
+    { pl: 'jeśli/czy', en: 'whether' },
+    { pl: 'wartość', en: 'worth' },
+    // { pl: 'zapasy magazynowe', en: 'stock' },
+    { pl: 'jednak', en: 'however' },
+    { pl: 'żródło', en: 'source' },
+];
