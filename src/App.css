@@ -8,20 +8,20 @@
 .main-container {
     background-color: rgba(245, 245, 245, 0.3); /* Białe tło z 60% przezroczystością */
     border-radius: 10px; /* Zaokrąglone rogi */
-    padding: 20px 26px; /* Odstępy wewnętrzne */
+    padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień dla efektu "uniesienia" */
     backdrop-filter: blur(10px); /* Efekt rozmycia dla tła */
 }
 
 
 .box {
-    margin-bottom: 14px;
     display: flex;
     flex-direction: column;
 }
 
 .word {
-    margin: 12px 0 36px 0;
+    margin-top: 2px;
+    margin-bottom: 36px;
     display: flex;
     height: 26px;
     justify-content: end;
