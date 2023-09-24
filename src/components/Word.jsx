@@ -7,23 +7,21 @@ export function Word({ word, onAnswerChange, isCorrect }) {
     let feedbackMessage = '';
 
     if (isCorrect === true) {
-        inputStyle.backgroundColor = 'lightgreen';
-        inputStyle.color = '#242424';
+        // inputStyle.backgroundColor = '#8EFEA7';
+        // inputStyle.color = '#242424';
         feedbackMessage = 'Dobrze!';
     } else if (isCorrect === false) {
-        inputStyle.backgroundColor = 'lightcoral';
+        // inputStyle.backgroundColor = '#FF5D5D';
         feedbackMessage = `${word.en}`;
     }
 
     return (
-        <>
-            <div className='word'>
-                <p>{word.pl}</p>
-                <div>
-                    <input style={inputStyle} onChange={handleInputChange} />
-                    <span className=''>{feedbackMessage}</span>
-                </div>
+        <div className='word'>
+            <p>{word.pl}</p>
+            <div>
+                <input style={inputStyle} onChange={handleInputChange} />
+                <span className=''>{feedbackMessage}</span>
             </div>
-        </>
+        </div>
     );
 }

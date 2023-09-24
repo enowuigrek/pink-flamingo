@@ -5,8 +5,17 @@
     text-align: center;
 }
 
+.main-container {
+    background-color: rgba(245, 245, 245, 0.3); /* Białe tło z 60% przezroczystością */
+    border-radius: 10px; /* Zaokrąglone rogi */
+    padding: 20px 26px; /* Odstępy wewnętrzne */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień dla efektu "uniesienia" */
+    backdrop-filter: blur(10px); /* Efekt rozmycia dla tła */
+}
+
+
 .box {
-    margin-bottom: 24px;
+    margin-bottom: 14px;
     display: flex;
     flex-direction: column;
 }
@@ -15,20 +24,15 @@
     margin: 12px 0 36px 0;
     display: flex;
     height: 26px;
-    justify-content: space-between;
+    justify-content: end;
     align-items: center;
 }
 
 .word p {
-    text-align: left;
+    text-align: right;
 }
 
 .word span {
     position: absolute;
     transform: translate(-150px, 34px);
-    color: #ebbecc;
 }
-
-/* .read-the-docs {
-    color: #888;
-} */

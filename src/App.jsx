@@ -38,7 +38,7 @@ function App() {
     }
 
     return (
-        <>
+        <div className='main-container'>
             <div className='box'>
                 {answers.map((_, index) => (
                     <Word
@@ -52,7 +52,7 @@ function App() {
                 ))}
             </div>
             <CheckButton onCheck={checkAnswers} />
-        </>
+        </div>
     );
 }
 
