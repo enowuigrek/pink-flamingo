@@ -3,15 +3,14 @@ export function Word({ word, onAnswerChange, isCorrect }) {
         onAnswerChange(e.target.value);
     };
 
-    let inputStyle = {};
     let feedbackMessage = '';
+    let spanStyle = {};
 
     if (isCorrect === true) {
-        // inputStyle.backgroundColor = '#8EFEA7';
-        // inputStyle.color = '#242424';
-        feedbackMessage = 'Dobrze!';
+        spanStyle.color = '#4DA04B';
+        feedbackMessage = 'dobrze!';
     } else if (isCorrect === false) {
-        // inputStyle.backgroundColor = '#FF5D5D';
+        spanStyle.color = '#FF5D5D';
         feedbackMessage = `${word.en}`;
     }
 
@@ -19,8 +18,8 @@ export function Word({ word, onAnswerChange, isCorrect }) {
         <div className='word'>
             <p>{word.pl}</p>
             <div>
-                <input style={inputStyle} onChange={handleInputChange} />
-                <span className=''>{feedbackMessage}</span>
+                <input onChange={handleInputChange} />
+                <span style={spanStyle}>{feedbackMessage}</span>
             </div>
         </div>
     );

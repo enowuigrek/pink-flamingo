@@ -33,6 +33,7 @@
 }
 
 .word span {
+    font-size: small;
     position: absolute;
     transform: translate(-150px, 34px);
 }

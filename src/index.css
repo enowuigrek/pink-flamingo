@@ -3,15 +3,7 @@
     line-height: 1.5;
     font-weight: 400;
     background: linear-gradient(45deg, #f3ddec, #e8a9c7);
-
-
     color: #300c1b;
-
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
 }
 
 a {
@@ -53,14 +45,12 @@ button:hover {
 
 input {
     border-radius: 5px;
-    /* background-color: #fc99b8; */
     background-color: #e8a9c78e;
-    color: #191919;
     border: transparent;
     padding: 0 1em;
     margin: 0 0 0 1.5em;
     font-size: 1em;
-    font-weight: 500;
+    font-weight: 300;
     font-family: inherit;
     height: 33px;
     width: 118px;
@@ -68,5 +58,5 @@ input {
 }
 
 input:focus {
-    outline: none; 
+    outline: none;
 }
