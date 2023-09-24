@@ -21,7 +21,7 @@ export function Word({ word, onAnswerChange, isCorrect }) {
                 <p>{word.pl}</p>
                 <div>
                     <input style={inputStyle} onChange={handleInputChange} />
-                    <p className=''>{feedbackMessage}</p>
+                    <span className=''>{feedbackMessage}</span>
                 </div>
             </div>
         </>

@@ -16,8 +16,19 @@
     display: flex;
     height: 26px;
     justify-content: space-between;
+    align-items: center;
 }
 
-.read-the-docs {
-    color: #888;
+.word p {
+    text-align: left;
 }
+
+.word span {
+    position: absolute;
+    transform: translate(-150px, 34px);
+    color: #ebbecc;
+}
+
+/* .read-the-docs {
+    color: #888;
+} */

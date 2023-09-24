@@ -2,7 +2,7 @@
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     font-weight: 400;
-    background-color: #191919;
+    background-color: #1e0d18;
     color: #f3f3f3;
 
     font-synthesis: none;
@@ -51,17 +51,21 @@ button:hover {
 
 input {
     border-radius: 5px;
-    background-color: #f3c1d1;
+    background-color: #eb7ea0;
     color: #191919;
     border: transparent;
     padding: 0 1em;
-    margin: 0 1em;
+    margin: 0 0 0 2em;
     font-size: 1em;
     font-weight: 500;
     font-family: inherit;
     height: 33px;
     width: 118px;
     transition: border-color 0.25s;
+}
+
+input:focus {
+    outline: none; 
 }
 
 input:focus {

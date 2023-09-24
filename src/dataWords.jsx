@@ -10,7 +10,7 @@ export const words = [
     { pl: 'może', en: 'might' },
     { pl: 'jeśli/czy', en: 'whether' },
     { pl: 'wartość', en: 'worth' },
-    // { pl: 'zapasy magazynowe', en: 'stock' },
+    { pl: 'zapasy magazynowe', en: 'stock' },
     { pl: 'jednak', en: 'however' },
     { pl: 'żródło', en: 'source' },
 ];
