@@ -17,5 +17,5 @@ export const words = [
     { pl: 'aż do', en: 'until' },
     { pl: 'dostęp', en: 'access' },
     { pl: 'narzekać', en: 'complain' },
-
+    { pl: 'zaklepać miejsce z przodu', en: 'shotgun' },
 ];
