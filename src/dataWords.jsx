@@ -16,4 +16,6 @@ export const words = [
     { pl: 'twórczy', en: 'creative' },
     { pl: 'aż do', en: 'until' },
     { pl: 'dostęp', en: 'access' },
+    { pl: 'narzekać', en: 'complain' },
+
 ];
