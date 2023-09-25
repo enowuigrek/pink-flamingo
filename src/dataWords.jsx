@@ -13,4 +13,7 @@ export const words = [
     { pl: 'zapasy magazynowe', en: 'stock' },
     { pl: 'jednak', en: 'however' },
     { pl: 'żródło', en: 'source' },
+    { pl: 'twórczy', en: 'creative' },
+    { pl: 'aż do', en: 'until' },
+    { pl: 'dostęp', en: 'access' },
 ];
