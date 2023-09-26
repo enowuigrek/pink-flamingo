@@ -8,7 +8,7 @@ export const words = [
     { pl: 'przykład', en: 'instance' },
     { pl: 'dostępny', en: 'available' },
     { pl: 'może', en: 'might' },
-    { pl: 'jeśli/czy', en: 'whether' },
+    { pl: 'jeśli, czy', en: 'whether' },
     { pl: 'wartość', en: 'worth' },
     { pl: 'zapasy magazynowe', en: 'stock' },
     { pl: 'jednak', en: 'however' },
@@ -18,4 +18,8 @@ export const words = [
     { pl: 'dostęp', en: 'access' },
     { pl: 'narzekać', en: 'complain' },
     { pl: 'zaklepać miejsce z przodu', en: 'shotgun' },
+    { pl: 'różnorodność', en: 'variety' },
+    { pl: 'dodać', en: 'add' },
+    { pl: 'handel, umowa', en: 'deal' },
+
 ];
