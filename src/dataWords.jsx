@@ -21,5 +21,9 @@ export const words = [
     { pl: 'różnorodność', en: 'variety' },
     { pl: 'dodać', en: 'add' },
     { pl: 'handel, umowa', en: 'deal' },
+    { pl: 'utrzymać, konserwować', en: 'maintain' },
+    { pl: 'zakres', en: 'range' },
+    { pl: 'zawierać', en: 'include' },
+
 
 ];
