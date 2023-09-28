@@ -24,6 +24,8 @@ export const words = [
     { pl: 'utrzymać, konserwować', en: 'maintain' },
     { pl: 'zakres', en: 'range' },
     { pl: 'zawierać', en: 'include' },
-
-
+    { pl: 'nagłówek', en: 'heading' },
+    { pl: 'ludzki', en: 'human' },
+    { pl: 'przerażony', en: 'scared' },
+    { pl: 'skupiać się', en: 'focus' },
 ];
