@@ -28,4 +28,7 @@ export const words = [
     { pl: 'ludzki', en: 'human' },
     { pl: 'przerażony', en: 'scared' },
     { pl: 'skupiać się', en: 'focus' },
+    { pl: 'zaangażowany', en: 'involved' },
+    { pl: 'zakup', en: 'purchase' },
+    { pl: 'cecha', en: 'feature' },
 ];
