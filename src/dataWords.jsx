@@ -31,4 +31,10 @@ export const words = [
     { pl: 'zaangażowany', en: 'involved' },
     { pl: 'zakup', en: 'purchase' },
     { pl: 'cecha', en: 'feature' },
+    { pl: 'konkretne', en: 'particular' },
+    { pl: 'albo ... albo', en: 'either … or' },
+    { pl: 'numer, liczba, cyfra', en: 'figure' },
+    { pl: 'ustawić', en: 'set up' },
+    { pl: 'ustalić, określić', en: 'determine' },
+    { pl: 'powszechny', en: 'common' },
 ];
