@@ -36,10 +36,7 @@ function App() {
     if (!isTestStarted) {
         return (
             <div className='start-container'>
-                <h1>Happy Birthday, Kasia! 🎉🥳</h1>
-                <p>Wishing you a day filled with joy and success in your English learning journey! 🎈✨</p>
                 <StartTestButton onStartTest={startTest} />
-                <p>Be kind to those who care and wish you the best. 💐🌟</p>
             </div>
         );
     }
