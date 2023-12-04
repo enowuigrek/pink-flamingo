@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { useState } from 'react';
 import { Word } from './components/Word';
 import { CheckButton } from './components/CheckButton';
